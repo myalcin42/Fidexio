@@ -113,7 +113,7 @@ public class LoginStepDefs {
 
         browserUtils.isAttributePresent(loginPage.email, "required");
         browserUtils.isAttributePresent(loginPage.password, "required");
-        //fghghfghhjghjfgdfgdfgd
+
     }
 
 }

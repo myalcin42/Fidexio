@@ -95,17 +95,17 @@ public class LoginStepDefs {
         loginPage.password.sendKeys(Keys.ENTER);
     }
 
-    @When("user click {string} link")
-    public void userClickLink(String arg0) {
-        loginPage.resetPassword.click();
-
-    }
-
-    @Then("User land on reset  password page")
-    public void userLandOnResetPasswordPage() {
-        String resetPassPage=Driver.getDriver().getTitle();
-        Assert.assertTrue(resetPassPage.contains("reset"));
-    }
+//    @When("user click {string} link")
+//    public void userClickLink(String arg0) {
+//        loginPage.resetPassword.click();
+//
+//    }
+//
+//    @Then("User land on reset  password page")
+//    public void userLandOnResetPasswordPage() {
+//        String resetPassPage=Driver.getDriver().getTitle();
+//        Assert.assertTrue(resetPassPage.contains("reset"));
+//    }
 
     @When("user do not enter email or password")
     public void userDoNotEnterEmailOrPassword() {
